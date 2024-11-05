@@ -1,7 +1,7 @@
 {
   "name": "Agora API caller",
   "description": "A barebones Flask app to route cloud recording calls to Agora.io",
-  "repository": "https://github.com/bleonar5/api-caller-template",
+  "repository": "https://github.com/SurvConf/api-caller-template",
   "env": {
     "APPID": {
       "description": "Agora Project APPID"
@@ -13,7 +13,7 @@
       "description": "S3 SECRET_KEY (downloaded in .csv)"
     },
     "REGION": {
-      "description":"explained in instructions"
+      "description": "explained in instructions"
     },
     "BUCKET": {
       "description": "the name of the S3 bucket you created"
