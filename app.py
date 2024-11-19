@@ -99,11 +99,8 @@ def start():
         "resourceid/%s/mode/mix/start" % request.json["resourceId"]
 
     response = requests.get(
-        "https://"
-        + TOKEN_APP_NAME
-        + ".herokuapp.com/access_token?channel="
-        + request.json["cName"]
-        + "&uid=99"
+        f"https://{TOKEN_APP_NAME}.herokuapp.com/access_token?channel={
+            request.json["cName"]}&uid=99"
     )
     print("Response status code:", response.status_code)
     print("Response text:", response.text)
