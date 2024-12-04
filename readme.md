@@ -119,3 +119,9 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+### Debugging
+
+Since this application is not designed to run locally. You will have to do logging on Heroku and you can look at these production logs. Documentation for this can be found here.
+
+[Documentation](https://devcenter.heroku.com/articles/logging)
